@@ -31,7 +31,6 @@
 ;;
 
 ;;; Code:
-
 (when (version< emacs-version "25.1")
   (error "This requires Emacs 25.1 and above!"))
 
@@ -67,16 +66,16 @@
 (require 'init-edit)
 (require 'init-ivy)
 (require 'init-company)
-(require 'init-yasnippet)
+;; (require 'init-yasnippet)
 
-(require 'init-calendar)
-(require 'init-dired)
+;; (require 'init-calendar)
+;; (require 'init-dired)
 (require 'init-highlight)
-(require 'init-ibuffer)
-(require 'init-kill-ring)
+;; (require 'init-ibuffer)
+;; (require 'init-kill-ring)
 (require 'init-window)
 
-(require 'init-eshell)
+;; (require 'init-eshell)
 (require 'init-shell)
 
 (require 'init-markdown)
@@ -86,9 +85,9 @@
 (require 'init-utils)
 
 ;; Programming
-(require 'init-vcs)
+;; (require 'init-vcs)
 (require 'init-flycheck)
-(require 'init-projectile)
+;; (require 'init-projectile)
 
 (require 'init-emacs-lisp)
 (require 'init-c)
